@@ -1,0 +1,29 @@
+h1 { 
+    text-align: center;
+}
+
+h2 { 
+    text-align: center;
+}
+
+h2 span { 
+    color: red;
+}
+
+ul { 
+    list-style-type: none;
+
+    margin: 0 auto;
+    display: block;
+    width: 80%;
+}
+
+ul li { 
+    display: inline;
+}
+
+input { 
+    margin: 0 auto;
+    display: block;
+    width: 30%;
+}

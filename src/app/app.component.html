@@ -1,6 +1,6 @@
 <h1> {{title}} </h1>
 <input
-    #textbox (keyup)="searchTerm$.next($event.target.value)" placeholder="Find a meme">
+    #textbox (keyup)="searchTerm.next($event.target.value)" placeholder="Find a meme">
 
     <h2>Search results for <span>{{ textbox.value }}</span></h2>
 

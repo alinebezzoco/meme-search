@@ -11,7 +11,7 @@ import { SearchService } from './services/search.service';
 export class AppComponent {
 
   searchTerm = new Subject<string>();
-  title = 'Welcome to Meme Search';
+  title = 'Bem-vindo ao buscador de memes';
   results = [];
 
   constructor(

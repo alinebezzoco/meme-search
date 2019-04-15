@@ -1,8 +1,8 @@
 <h1> {{title}} </h1>
 <input
-    #textbox (keyup)="searchTerm.next($event.target.value)" placeholder="Find a meme">
+    #textbox (keyup)="searchTerm.next($event.target.value)" placeholder="Pesquisar...">
 
-    <h2>Search results for <span>{{ textbox.value }}</span></h2>
+    <h2>Buscando resultados por <span>{{ textbox.value }}</span></h2>
 
 <ul *ngIf="results">
   <li *ngFor="let result of results | slice:0:9">
